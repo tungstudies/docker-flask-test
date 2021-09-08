@@ -1,5 +1,5 @@
 # init a base image (Alpine is small Linux distro)
-FROM python:3.6.1-alpine
+FROM python:3.8.5-alpine
 # define the present working directory
 WORKDIR /docker-flask-test
 # copy the contents into the working dir
